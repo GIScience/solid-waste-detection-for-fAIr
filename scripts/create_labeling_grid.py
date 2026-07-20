@@ -10,7 +10,7 @@ from shapely.geometry import box
 
 
 TILE_SIZE = 5
-STYLE = Path(__file__).with_name("labeling_grid.qml")
+STYLE = Path(__file__).with_name("../data/labeling_grid.qml")
 
 
 def create_grid(tif: Path, target: Path) -> None:
