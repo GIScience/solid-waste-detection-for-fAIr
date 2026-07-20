@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repo contains the labels and scripts for the **YOLO Solid Waste Analysis for Spatial Grid (SWAG)** for detecting solid waste piles from UAV imagery.
-The model is based on a previous work, that can be found [here](https://zenodo.org/records/19731126).
+The model is based on a previous work, that can be found [here](https://doi.org/10.48550/arXiv.2605.02316).
 
 YOLO SWAG (Solid Waste Analysis on spatial Grids) is a pretrained YOLO26x-cls model for 
 semantic segmentation of solid waste piles in UAV (drone) imagery. The model classifies 5m x 5m grid cells as either 
