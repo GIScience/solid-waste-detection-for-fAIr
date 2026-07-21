@@ -22,3 +22,9 @@ uv run python scripts/create_labeling_grid.py <path/to/oam_files> <path/to/outpu
 
 The content of the output directory can be loaded into QGIS or similar applications for labelling. Tiles containing 
 waste piles are labelled with class "1" and background with class "2".
+
+## Examples
+
+![example_senegal](data/images/example_senegal.png)
+![example](data/images/example.png)
+![example_buildings](data/images/example_buildings.png)
