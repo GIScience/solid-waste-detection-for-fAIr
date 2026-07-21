@@ -1,1 +1,2 @@
 data/labels/*.gpkg filter=lfs diff=lfs merge=lfs -text
+data/checkpoint/checkpoint_v1.pt filter=lfs diff=lfs merge=lfs -text
