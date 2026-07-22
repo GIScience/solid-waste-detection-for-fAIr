@@ -23,6 +23,18 @@ uv run python scripts/create_labeling_grid.py <path/to/oam_files> <path/to/outpu
 The content of the output directory can be loaded into QGIS or similar applications for labelling. Tiles containing 
 waste piles are labelled with class "1" and background with class "2".
 
+## Scene-wise cross-validation
+
+The YOLO classifier was evaluated with 10 scene-held-out cross-validation folds. Each fold keeps all tiles from a scene in the same split, preventing spatial leakage between training, validation, and test data. Results are reported as mean ± standard deviation across folds.
+
+| Split | Top-1 accuracy |
+|---|---:|
+| Train | 92.60% ± 1.51% |
+| Validation | 92.62% ± 1.53% |
+| Test | **91.32% ± 3.16%** |
+
+The mean held-out-scene accuracy is 91.3%. The close training and validation performance suggests limited average overfitting, while the larger test variation indicates that some scenes are more challenging than others. Top-5 accuracy was 100% in every fold and is not informative for this task because there are fewer than five classes.
+
 ## Examples
 
 ![example_senegal](data/images/example_senegal.png)
