@@ -23,6 +23,12 @@ uv run python scripts/create_labeling_grid.py <path/to/oam_files> <path/to/outpu
 The content of the output directory can be loaded into QGIS or similar applications for labelling. Tiles containing 
 waste piles are labelled with class "1" and background with class "2".
 
+## Training scene distribution
+
+The training scenes cover locations across the World Bank regions shown below.
+
+![World map showing the geographic distribution of OpenAerialMap training scenes](data/images/Overview.png)
+
 ## Scene-wise cross-validation
 
 The YOLO classifier was evaluated with 10 scene-held-out cross-validation folds. Each fold keeps all tiles from a scene in the same split, preventing spatial leakage between training, validation, and test data. Results are reported as mean ± standard deviation across folds.
