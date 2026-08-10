@@ -2,7 +2,7 @@
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI]<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/41689f06-ae64-4b1c-a936-aab9b84e746c" />](https://doi.org/10.5281/zenodo.13121149)
+[<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/41689f06-ae64-4b1c-a936-aab9b84e746c" />](https://doi.org/10.5281/zenodo.13121149)
 
 
 This repo contains the labels and scripts for the **YOLO Solid Waste Assessment on Grids (SWAG)** for detecting solid waste piles from UAV imagery.
